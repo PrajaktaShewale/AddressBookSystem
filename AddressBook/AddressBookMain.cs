@@ -7,7 +7,6 @@ namespace AddressBook
         {
 
             Contacts contact = new Contacts()
-
             {
                 FirstName = Console.ReadLine(),
                 LastName = Console.ReadLine(),
@@ -20,7 +19,6 @@ namespace AddressBook
             };
             Console.WriteLine("contact Details" + "\n" + contact.FirstName + "\n" + contact.LastName + "\n" + contact.Address + "\n" + contact.
                 City + "\n" + contact.State + "\n" + contact.Zip + "\n" + contact.PhoneNumber + "\n" + contact.Email);
-
         }   
     }
 }
